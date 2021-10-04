@@ -5,6 +5,7 @@ import { Breadcrumb, Col, Container, FloatingLabel, Form, Row, Button } from 're
 const Contact = () => {
     return (
         <div>
+            {/* Breadcrumb */}
             <div className='contact-container'>
                 <div class="container">
                     <h1>Contact Us</h1>
@@ -15,6 +16,7 @@ const Contact = () => {
                 </div>
             </div>
 
+            {/* Contact form */}
             <Container >
                 <div className='contact'>
                     <h2>Get In Touch</h2>
@@ -51,6 +53,7 @@ const Contact = () => {
                             </Button>
                         </Form>
                     </Col>
+                    {/* Address and information */}
                     <Col>
                         <div className='d-flex p-4 shadow rounded mb-4'>
                             <div><i class="fas fa-search-location pe-4 fs-4 primary-color"></i></div>

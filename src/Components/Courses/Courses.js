@@ -8,7 +8,7 @@ const Courses = (props) => {
 
     return (
         <div className='pt-4'>
-
+            {/* Single course card */}
             <Col className='shadow'>
                 <Card>
                     <Card.Img width='100' height='250' variant="top" src={thumbnail} />

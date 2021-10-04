@@ -9,7 +9,6 @@ const Header = () => {
     return (
         <div>
             <Navbar bg="light" fixed="top" expand="lg" id='nav'>
-
                 <Container>
                     <NavLink to="/home" className='text-decoration-none text-dark'><b className='primary-color fs-3 fst-italic'>Skill</b> Develop</NavLink>
                     <Navbar.Toggle aria-controls="navbarScroll" />
@@ -23,8 +22,6 @@ const Header = () => {
                             <NavLink to="/all-courses">All Courses</NavLink>
                             <NavLink to="/about">About</NavLink>
                             <NavLink to="/contact">Contact Us</NavLink>
-
-
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -6,6 +6,7 @@ import aboutImg from '../../images/about.jpg'
 const About = () => {
     return (
         <div >
+            {/* Breadcrumb */}
             <div className='about-container'>
                 <div class="container">
                     <h1>About Us</h1>
@@ -15,6 +16,8 @@ const About = () => {
                     </Breadcrumb>
                 </div>
             </div>
+
+            {/* About section */}
 
             <div className='about'>
                 <Container >

@@ -8,7 +8,7 @@ import './Allcourses.css'
 const AllCourses = () => {
     const courses = CallCoursesApi()
 
-
+    // All courses page section
     return (
         <div className='Courses'>
             <div className='container'>

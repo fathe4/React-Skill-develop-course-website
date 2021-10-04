@@ -6,13 +6,16 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='footer bg-light'>
+
             <div className='container'>
                 <Row xs={1} md={4} className="g-4">
+                    {/* Footer 1 */}
                     <Col>
                         <NavLink to="/home" className='text-decoration-none text-dark'><b className='primary-color fs-3 fst-italic'>Skill</b> Develop</NavLink>
                         <p className='py-3'>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans to best.</p>
 
                     </Col>
+                    {/* Footer 2 */}
                     <Col>
                         <h5 className='fw-bold'>Pages</h5>
                         <ul className="navbar-nav ps-3 ms-auto mb-2 mb-lg-0">
@@ -32,6 +35,7 @@ const Footer = () => {
 
                         </ul>
                     </Col>
+                    {/* Footer 3 */}
                     <Col>
                         <h5 className='fw-bold pb-3'>Newsletter</h5>
                         <p>Subscribe us for daily offers and updates.</p>
@@ -46,7 +50,7 @@ const Footer = () => {
                             </Button>
                         </InputGroup>
 
-
+                        {/* Footer 4 */}
                     </Col>
                     <Col className='ps-4'>
                         <h5 className='fw-bold pb-3'>Follow in Social Media</h5>

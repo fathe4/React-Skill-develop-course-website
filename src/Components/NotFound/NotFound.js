@@ -3,6 +3,7 @@ import img404 from '../../images/404.png'
 import './notFound.css'
 
 const NotFound = () => {
+    // Not found page 
     return (
         <div className='page404'>
             <img width='500px' className='d-block mx-auto py-4' src={img404} alt="" />
