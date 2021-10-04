@@ -24,10 +24,12 @@ const About = () => {
                     <Row xs={1} md={2} >
                         <Col>
                             <h2>About <i className='primary-color mb-4'>Skill</i> Develop</h2>
-                            <p className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas cupiditate, cumque commodi voluptatibus dolorum quia velit odit mollitia alias facere tempore blanditiis architecto aperiam asperiores officiis laudantium voluptate sint et! Necessitatibus harum tempora fugit illum numquam suscipit obcaecati architecto quaerat. Reiciendis praesentium qui error, ipsam illum dignissimos, possimus itaque sit illo consequatur sint. Odio, iste rerum? Nihil labore fuga omnis sapiente quod sed quisquam est quis quam minus! Laudantium, sit itaque! Accusamus ex porro nesciunt nulla reiciendis eligendi voluptate aliquam corrupti. Repudiandae ipsum cupiditate mollitia minus suscipit corrupti est adipisci, ea omnis magnam dolores minima facilis et praesentium tempora nam nesciunt sequi. Dolor laborum neque saepe voluptatum ipsum fugiat iste dolorem officiis suscipit deserunt assumenda, maxime commodi? Error at recusandae, unde iure repellat soluta! Eligendi, consectetur id? Magni, consectetur? Dolore quasi quod non, optio molestiae commodi ipsa asperiores amet a accusantium eveniet omnis doloribus unde explicabo, minima expedita temporibus.</p>
+                            <p className='mt-4 lh-lg'>Whether you want to learn or to share what you know, you’ve come to the right place. As a global destination for online learning, we connect people through knowledge.We help organizations of all types and sizes prepare for the path ahead — wherever it leads. Our curated collection of business and technical courses help companies, governments, and nonprofits go further by placing learning at the center of their strategies.Our global community and our course catalog get bigger every day. Skill develop was founded by Daphne Koller and Andrew Ng in 2012 with a vision of providing life-transforming learning experiences to learners around the world. Today, Skill develop  is a global online learning platform that offers anyone, anywhere, access to online courses and degrees from leading universities and companies. Skill develop  received B Corp certification in February 2021, which means that we have a legal duty not only to our shareholders, but to also make a positive impact on society more broadly, as we continue our efforts to reduce barriers to world-class education for all.
+
+                            </p>
                         </Col>
                         <Col>
-                            <img width='700' src={aboutImg} alt="" />
+                            <img width='750' src={aboutImg} alt="" />
                         </Col>
                     </Row>
                 </Container>
