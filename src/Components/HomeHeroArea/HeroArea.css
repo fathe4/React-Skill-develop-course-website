@@ -15,9 +15,10 @@
 .custom-btn:hover{
    box-shadow: 0px 10px 24px 0px rgba(216, 29, 94, 0.37);
 }
-/* .hero-area{
-   background-image: url(../../images/hero-area.svg);
+.hero-area{
+   background-image: url(../../images/wave.svg);
    background-repeat: no-repeat;
    background-size: cover;
-} */
+   margin-bottom: 100px;
+}
 

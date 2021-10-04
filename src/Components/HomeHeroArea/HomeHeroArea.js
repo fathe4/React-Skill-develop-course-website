@@ -7,7 +7,7 @@ import './HeroArea.css'
 const HomeHeroArea = () => {
     return (
         // Hero Area
-        <div className='hero-area'>
+        <div className='hero-area vh-100'>
             <div className=' container'>
                 <div className="row hero-texts align-items-center  gx-4">
                     <div className='col-md-6'>
