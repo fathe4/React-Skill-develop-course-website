@@ -1,37 +1,35 @@
 import React from 'react';
+import '../../App.css'
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
+
     return (
         <div>
+            <Navbar bg="light" fixed="top" expand="lg" id='nav'>
 
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-                <div class="container">
-                    <NavLink className="navbar-brand" to="/home">Navbar</NavLink>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <Container>
+                    <NavLink to="/home" className='text-decoration-none text-dark'><b className='primary-color fs-3 fst-italic'>Skill</b> Develop</NavLink>
+                    <Navbar.Toggle aria-controls="navbarScroll" />
+                    <Navbar.Collapse id="navbarScroll">
+                        <Nav
+                            className="ms-auto my-2 my-lg-0 custom-nav"
+                            style={{ maxHeight: '100px' }}
+                            navbarScroll
+                        >
+                            <NavLink to="/home">Home</NavLink>
+                            <NavLink to="/all-courses">All Courses</NavLink>
+                            <NavLink to="/about">About</NavLink>
+                            <NavLink to="/contact">Contact Us</NavLink>
 
-                            <li class="nav-item">
-                                <NavLink className="nav-link" to="/Home">Home</NavLink>
-                            </li>
-                            <li class="nav-item">
-                                <NavLink className="nav-link" to="/services">Services</NavLink>
-                            </li>
-                            <li class="nav-item">
-                                <NavLink className="nav-link" to="/about">About</NavLink>
-                            </li>
-                            <li class="nav-item">
-                                <NavLink className="nav-link" to="/about">Contact Us</NavLink>
-                            </li>
 
-                        </ul>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
 
-                    </div>
-                </div>
-            </nav>
         </div>
     );
 };

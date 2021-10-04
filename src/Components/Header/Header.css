@@ -1,0 +1,10 @@
+.custom-nav a {
+    text-decoration: none;
+    margin-right: 28px;
+    font-weight: 600;
+    color: #000;
+}
+
+.custom-nav a:hover{
+    color: rgba(216,29,96,1);
+}
