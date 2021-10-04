@@ -1,0 +1,14 @@
+
+.hero-texts{
+  padding: 200px 0;
+}
+.custom-btn{
+   background: linear-gradient(90deg, rgba(235,0,83,1) 0%, rgba(216,29,96,1) 60%);
+   border: none;
+   padding: 15px 30px;
+}
+
+.custom-btn:focus{
+   box-shadow: 0 0 0 0.25rem rgba(240, 144, 177, 0.705)
+}
+
