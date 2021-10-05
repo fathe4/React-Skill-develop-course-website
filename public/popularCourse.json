@@ -1,0 +1,22 @@
+[
+    {
+        "name": "JS Crash Course",
+        "description": "JavaScript is high-level, often just-in-time compiled, and multi-paradigm.",
+        "icon": "fab fa-js fs-2 pe-3 text-warning"
+    },
+    {
+        "name": "PHP Crash Course",
+        "description": "PHP is a general-purpose scripting language geared towards web development. ",
+        "icon": "fab fa-php fs-2 pe-3 text-primary"
+    },
+    {
+        "name": "React Master Course",
+        "description": "React is a free and open-source front-end JavaScript library for building user interfaces.",
+        "icon": "fab fa-react fs-2 pe-3 text-info"
+    },
+    {
+        "name": "Angular for Beginner",
+        "description": "Angular is a TypeScript-based free and open-source web application framework",
+        "icon": "fab fa-angular fs-2 pe-3 text-danger"
+    }
+]

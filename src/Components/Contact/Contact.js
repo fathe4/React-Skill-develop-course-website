@@ -1,20 +1,14 @@
 import React from 'react';
 import './contact.css'
-import { Breadcrumb, Col, Container, FloatingLabel, Form, Row, Button } from 'react-bootstrap';
+import { Col, Container, FloatingLabel, Form, Row, Button } from 'react-bootstrap';
+import CustomBreadcrumb from '../Breadcrumb/Breadcrumb';
 
 const Contact = () => {
     return (
         <div>
-            {/* Breadcrumb */}
-            <div className='contact-container'>
-                <div class="container">
-                    <h1>Contact Us</h1>
-                    <Breadcrumb >
-                        <Breadcrumb.Item className='text-white' href="/home">Home</Breadcrumb.Item>
-                        <Breadcrumb.Item active>Contact Us</Breadcrumb.Item>
-                    </Breadcrumb>
-                </div>
-            </div>
+            {/* Custom Breadcrumb */}
+
+            <CustomBreadcrumb text={'Contact Us'} img='https://themepure.net/template/educal/educal/assets/img/page-title/page-title.jpg'></CustomBreadcrumb>
 
             {/* Contact form */}
             <Container >

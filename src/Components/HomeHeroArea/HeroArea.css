@@ -1,6 +1,7 @@
 
 .hero-texts{
-  padding: 200px 0;
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
 .custom-btn{
    background: linear-gradient(90deg, rgba(235,0,83,1) 0%, rgba(216,29,96,1) 60%);

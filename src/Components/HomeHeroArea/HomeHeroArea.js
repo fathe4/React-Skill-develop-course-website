@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import headerImg from '../../images/header.jpg'
+import PopularCourse from '../PopularCourse/PopularCourse';
 import './HeroArea.css'
 
 const HomeHeroArea = () => {
+    const [popularCourses, setPopularCourse] = useState([])
+    useEffect(() => {
+        fetch('./PopularCourse.json')
+            .then(res => res.json())
+            .then(data => setPopularCourse(data))
+    }, [])
     return (
         // Hero Area
         <div className='hero-area vh-100'>
@@ -20,9 +27,18 @@ const HomeHeroArea = () => {
                     </div>
                     <div className='col-md-6'>
                         <img className='shadow-lg rounded-lg' src={headerImg} alt="" />
+
                     </div>
 
                 </div>
+                {/* Popular courses */}
+                <div className="row-cols-md-4 d-flex justify-content-around gap-4">
+                    {
+                        popularCourses.map((popularCourse, idx) => <PopularCourse key={idx} popularCourse={popularCourse} ></PopularCourse>)
+                    }
+
+                </div>
+
 
             </div>
         </div>

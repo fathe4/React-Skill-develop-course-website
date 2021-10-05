@@ -1,21 +1,15 @@
 import React from 'react';
-import { Breadcrumb, Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import './about.css'
 import aboutImg from '../../images/about.jpg'
+import CustomBreadcrumb from '../Breadcrumb/Breadcrumb';
 
 const About = () => {
     return (
         <div >
-            {/* Breadcrumb */}
-            <div className='about-container'>
-                <div class="container">
-                    <h1>About Us</h1>
-                    <Breadcrumb >
-                        <Breadcrumb.Item className='text-white' href="/home">Home</Breadcrumb.Item>
-                        <Breadcrumb.Item active>About</Breadcrumb.Item>
-                    </Breadcrumb>
-                </div>
-            </div>
+            {/* Breadcrumb  components*/}
+
+            <CustomBreadcrumb text='About us' img='https://themepure.net/template/educal/educal/assets/img/page-title/page-title-2.jpg'></CustomBreadcrumb>
 
             {/* About section */}
 

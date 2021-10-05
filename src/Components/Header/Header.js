@@ -12,6 +12,7 @@ const Header = () => {
                 <Container>
                     <NavLink to="/home" className='text-decoration-none text-dark'><b className='primary-color fs-3 fst-italic'>Skill</b> Develop</NavLink>
                     <Navbar.Toggle aria-controls="navbarScroll" />
+
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="ms-auto my-2 my-lg-0 custom-nav"
@@ -19,11 +20,12 @@ const Header = () => {
                             navbarScroll
                         >
                             <NavLink to="/home">Home</NavLink>
-                            <NavLink to="/all-courses">All Courses</NavLink>
+                            <NavLink to="/all-courses">Our Courses</NavLink>
                             <NavLink to="/about">About</NavLink>
                             <NavLink to="/contact">Contact Us</NavLink>
                         </Nav>
                     </Navbar.Collapse>
+
                 </Container>
             </Navbar>
 
