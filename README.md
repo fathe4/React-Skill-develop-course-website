@@ -1,4 +1,5 @@
-# Skill Develop
+# Skill Develop Live site: https://skill-develop.netlify.app/home
+
 
 Skill develop is an online learning platform where you can enroll various courses to develop your skill
 
